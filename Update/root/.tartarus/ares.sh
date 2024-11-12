@@ -21,12 +21,12 @@ do
   div2=$n1
   
   #Begins changing numSub
-  numSub=$(( $numSub * $mult ))
+  numSub=$(( $numSub*$mult ))
   numSub=$(( $numSub / $div ))
   
   #Same as above but for numSub1
   numSub1=$(( $numSub1 / $div2 ))
-  numSub1=$(( $numSub1 * $mult2 ))
+  numSub1=$(( $numSub1*$mult2 ))
   
   #Changes value of x by a random amount
   x=$(( $x + $y ))
