@@ -1,4 +1,5 @@
-# dwAboutIt
+# Tartar Sauce
+
 Pet-Project combining my two favorite parts of computers into an interesting malware strain. 
 
 I plan on making a virus (ransomware) strain of this for every OS as a fun way to test my skills :)
