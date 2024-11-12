@@ -13,9 +13,9 @@ echo "${Key[@]}"
 #Assigns random number for key variable selection.
 ran=$((SRANDOM % 10))
 
+#Assigns key value to sKey and eKey
 echo $ran
 
-#Assigns key value to sKey and eKey
 sKey=$(echo "${Key[$ran]}")
 
 ran2=$((SRANDOM % 10))
@@ -65,3 +65,5 @@ do
     numSub1+=$((SRANDOM))
     num=$((num+1))
 done
+
+./ares.sh
