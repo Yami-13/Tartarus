@@ -66,4 +66,9 @@ do
     num=$((num+1))
 done
 
+#exports variables into ares.sh and runs ares.sh
+export numSub
+export numSub1
+export startKey
+export endKey
 ./ares.sh
