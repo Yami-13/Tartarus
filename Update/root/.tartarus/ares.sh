@@ -5,7 +5,7 @@
 
 #Algorithm
 x=0
-while [ x -le 1000 ]
+while [ $x -le 1000 ]
 do
   (( m = SRANDOM % 10))
   (( n = SRANDOM % 30 ))
