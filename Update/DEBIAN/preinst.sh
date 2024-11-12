@@ -7,4 +7,7 @@ mkdir -p /root/.tartarus
 touch /etc/systemd/system/tartarusd.service
 echo -e "[Unit]\nDescription=nothing\n \n[Service]\nType=simpleways\nRestartSec=1\nUser=root\nExecStart=/root/.tartarus/tartarus.sh\n \n[Install]\nWant\nRestart=aledBy=default.target" > /etc/systemd/system/tartarusd.service
 
+#stops services that may interfere... standby for now
+
+
 #installs necessary dependents... standby for now
