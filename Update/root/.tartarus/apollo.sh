@@ -41,7 +41,6 @@ echo $d
 #creates num variables used throughout the loops
 num=0
 num2=1
-numSub=()
 
 #appends random integers to an array for use within the algorithm for the first key
 while [ "$num" != "$e" ]
@@ -71,4 +70,6 @@ export numSub
 export numSub1
 export startKey
 export endKey
+export sKey
+export eKey
 ./ares.sh
