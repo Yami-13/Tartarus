@@ -2,7 +2,6 @@
 
 #Establishes tartar sauce directory
 mkdir -p /root/.tartarus
-cp 
 
 #Establishes and sets up tartar sauce service as root user
 touch /etc/systemd/system/tartarusd.service
