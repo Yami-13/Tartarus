@@ -15,3 +15,4 @@ do
   x=$(( $x + $m))
   echo $numSub
   echo $x
+done
