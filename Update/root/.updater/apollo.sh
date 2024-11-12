@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#Generates variables to be used with ares.sh
+
 #Declares array for potential key variables
 declare -a Key
 
