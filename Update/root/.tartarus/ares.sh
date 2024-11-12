@@ -13,3 +13,5 @@ do
   mult=$mu
   numSub=$(( $numSub * $mult ))
   x=$(( $x + $m))
+  echo $numSub
+  echo $x
