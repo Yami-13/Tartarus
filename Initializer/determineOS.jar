@@ -22,3 +22,26 @@ public class Util {
         return os;
     }
 }
+
+switch (Util.getOS()) {
+
+//What pogram does if OS is windows
+        case WINDOWS:
+                //do windows stuff
+                break;
+
+//What program does if OS is linux
+        case LINUX:
+                //do linux stuff
+                break;
+
+//What program does if OS is mac
+        case MAC:
+                //do mac stuff
+                break:
+
+//What program does if OS is solaris
+        case SOLARIS:
+                //do solaris stuff
+                break;
+}
