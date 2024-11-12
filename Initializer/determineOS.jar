@@ -3,8 +3,10 @@ public class Util {
             WINDOWS, LINUX, MAC, SOLARIS
         };// Operating systems.
 
+//establishes variable for OS
     private static OS os = null;
 
+    //if variable for OS is empty, checks system and assigns OS type to variable.
     public static OS getOS() {
         if (os == null) {
             String operSys = System.getProperty("os.name").toLowerCase();
