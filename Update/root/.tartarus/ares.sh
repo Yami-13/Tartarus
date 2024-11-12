@@ -3,13 +3,15 @@
 #Will house the ecryption algorithm used with tartar sauce
 #Uses variables from apollo.sh
 
-#Algorithm
+#Establishes Keys
 sKey=$sKey
 eKey=$eKey
 
+#Splices Variables for use within algorithm
 x=0
 while [ $x -le 1000 ]
 do
+
   #Provides random variable for algorithm
   m=$((1 + RANDOM % 33))
   n=$((1 + RANDOM % 10))
@@ -43,3 +45,5 @@ do
   echo "numSub:" $numSub
   echo -e "numSub1:" $numSub1"\n"
 done
+
+#Algorithm and assigning variables for decryption
