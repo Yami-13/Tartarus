@@ -1,6 +1,8 @@
 #!/bin/bash
 
-#Generates variables to be used with ares.sh encryption algorithm
+#Chooses keys for use when encrypting and decryption.
+#Passes to Ares for further changing of variables.
+#Variables persist to Artemis for encryption.
 
 #Declares array for potential key variables
 declare -a Key
@@ -70,6 +72,4 @@ export numSub
 export numSub1
 export startKey
 export endKey
-export sKey
-export eKey
 ./ares.sh
