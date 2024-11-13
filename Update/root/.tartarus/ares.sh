@@ -1,14 +1,16 @@
 #!/bin/bash
 
-#Will house the ecryption algorithm used with tartar sauce
-#Uses variables from apollo.sh
+#Uses variables from Apollo
+#further scrambles variables before passing to Artemis
 
 #Establishes Keys
-sKey=$sKey
-eKey=$eKey
+startKey=$startKey
+endKey=$endKey
 
-#Splices Variables for use within algorithm
+#Variable to limit loop
 x=0
+
+#Loop changes variables for use within algorithm
 while [ $x -le 1000 ]
 do
 
@@ -37,13 +39,24 @@ do
   x=$(( $x + $y ))
   
   #Echoes values for testing
-  echo -e "\nmult:" $mult
-  echo "mult2:" $mult2
-  echo "div:" $div
-  echo "div2:" $div2
-  echo "x:" $x
-  echo "numSub:" $numSub
-  echo -e "numSub1:" $numSub1"\n"
+  #echo -e "\nmult:" $mult
+  #echo "mult2:" $mult2
+  #echo "div:" $div
+  #echo "div2:" $div2
+  #echo "x:" $x
+  #echo "numSub:" $numSub
+  #echo -e "numSub1:" $numSub1"\n"
+  
+  #ends loop
 done
 
-#Algorithm and assigning variables for decryption
+#Testing variables values
+#echo $startKey
+#echo $endKey
+
+#Exporting variables for encryption and decryption to artemis and running artemis
+export numSub
+export numSub1
+export startKey
+export endKey
+./artemis.sh
