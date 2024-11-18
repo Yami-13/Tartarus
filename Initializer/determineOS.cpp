@@ -4,17 +4,17 @@ int main(int argc, char *argv[])
 {
 
 #ifdef _WIN32
-   int OS = "Windows";
+   string OS = "Windows";
    printf("Your OS is: Windows";
 #endif
 
 #ifdef linux
-    int OS = "Linux";
+    string OS = "Linux";
     printf("Your OS is: Linux");
 #endif
 
 #ifdef macintosh
-    int OS = "macOS";
+    string OS = "macOS";
     printf("Your OS is: macOS");
 #endif
 return 0;
