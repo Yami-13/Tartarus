@@ -4,7 +4,7 @@ int main(int argc, char *argv[])
 {
 
 #ifdef _WIN32
-   printf("In Windows\n");
+   printf("in Windows\n");
 #endif
 
 #ifdef linux
@@ -17,3 +17,4 @@ int main(int argc, char *argv[])
 
     return 0;
 }
+
