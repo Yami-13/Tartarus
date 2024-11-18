@@ -17,13 +17,15 @@ declare -a Charlie
 declare -a Delta
 
 #Assigns values to arrays.
-Alpha=('a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z')
-Beta=('A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'J' 'K' 'L' 'M' 'N' 'O' 'P' 'Q' 'R' 'S' 'T' 'U' 'V' 'W' 'X' 'Y' 'Z')
-Charlie=('1' '2' '3' '4' '5' '6' '7' '8' '9' '0')
-Delta=('!' '@' '#' '$' '%' '^' '&' '*' '(' ')')
+Alph4=('a' 'b' 'c' 'd' 'e' 'f' 'g' 'h' 'i' 'j' 'k' 'l' 'm' 'n' 'o' 'p' 'q' 'r' 's' 't' 'u' 'v' 'w' 'x' 'y' 'z')
+Bet4=('A' 'B' 'C' 'D' 'E' 'F' 'G' 'H' 'I' 'J' 'K' 'L' 'M' 'N' 'O' 'P' 'Q' 'R' 'S' 'T' 'U' 'V' 'W' 'X' 'Y' 'Z')
+Charli3=('1' '2' '3' '4' '5' '6' '7' '8' '9' '0')
+Delt4=('!' '@' '#' '$' '%' '^' '&' '*' '(' ')')
 
 #Variables to hold commands (WIP)
-Echo=
+Ech0=$(for dir in */;
+do
+)
 
 #Exports Variables to next step
 export numSub
