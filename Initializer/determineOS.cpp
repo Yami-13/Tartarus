@@ -1,24 +1,19 @@
 #include<stdio.h>
-#include<string>
-#include<iostream>
 
 int main(int argc, char *argv[])
 {
 
 #ifdef _WIN32
-   std::string OS = "Windows"
-   ,printf("Your OS is: Windows";
+   printf("in Windows");
 #endif
 
 #ifdef linux
-    std::string OS = "Linux"
-    ,printf("Your OS is: Linux");
+    printf("In Linux");
 #endif
 
 #ifdef macintosh
-    std::string OS = "macOS"
-    ,printf("Your OS is: macOS");
+    printf("In MacOS");
 #endif
-return 0;
-}
 
+    return 0;
+}
