@@ -4,18 +4,18 @@ int main(int argc, char *argv[])
 {
 
 #ifdef _WIN32
-   int OS = "windows";
+   int OS = "Windows";
 #endif
 
 #ifdef linux
-    int OS = "linux";
+    int OS = "Linux";
 #endif
 
 #ifdef macintosh
-    int OS = "macos";
+    int OS = "macOS";
 #endif
 
-printf(OS);
+std::cout << "Your OS is" << OS;
    
 return 0;
 }
