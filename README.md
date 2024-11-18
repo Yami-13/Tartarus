@@ -7,7 +7,7 @@ Currently working on Linux
 .
 .
 
-Java file that determines system OS and pulls correct package for install - Initializer 
+C++ file that determines system OS and pulls correct package for install - Initializer 
 
 Linux version of Tartarus - /Update
 
