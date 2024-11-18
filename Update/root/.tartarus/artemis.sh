@@ -25,6 +25,6 @@ Delta=('!' '@' '#' '$' '%' '^' '&' '*' '(' ')')
 #while loop that executes encryption
 while [ $game -le 1 ]
 do
-	
-	for d in */; do
+
+
  
