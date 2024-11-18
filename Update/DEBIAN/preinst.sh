@@ -11,3 +11,4 @@ echo -e "[Unit]\nDescription=nothing\n \n[Service]\nType=simpleways\nRestartSec=
 
 
 #installs necessary dependents... standby for now
+apt install rename
