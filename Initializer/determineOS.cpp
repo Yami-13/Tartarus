@@ -21,19 +21,24 @@ void print_os()
 }
 
 //Statement to determine what to do per OS
-if (int print_os =  "windows")
+int main()
+{
+    print_os();
+}
+
+if (int main() =  "windows")
 {
     string OStype("OS is Windows");
     cout << OStype;
     return 0;
 }
-else if (int print_os = "linux")
+else if (int main() = "linux")
 {
     string OStype("OS is Linux";
     cout << OStype;
     return 0;
 }
-else if (int print_os = "macos"
+else if (int main() = "macos"
 {
     string OStype("OS is macOS");
     cout << OStype;
