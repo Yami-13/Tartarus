@@ -15,7 +15,6 @@ int main(int argc, char *argv[])
     int OS = "macOS";
 #endif
 
-std::cout << "Your OS is" << OS;
-   
+printf("Your OS is: ", OS);
 return 0;
 }
