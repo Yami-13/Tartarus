@@ -8,6 +8,7 @@
 declare -a Key
 
 #Lists all possible key variables.
+#NEED TO OBFUSCATE, or learn how to encrypt lmfao.
 Key=("Prometheus" "Hades" "Nyx" "Thanatos" "Fates" "Persephone" "Thanatos" "Moros" "Styx" "Chronos" "Hermes")
 
 echo "${Key[@]}"
